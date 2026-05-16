@@ -49,6 +49,9 @@ Référentiel complet de Drupal Views 8-11+ : configuration UI, plugin system (h
 | Cache tags custom sur une View | `hook_views_pre_render()` + addCacheTags | [views-cache.md](views-cache.md) |
 | Débogage query Views | `hook_views_query_alter()` + `dpq($view->query)` | [views-programmatic.md](views-programmatic.md) |
 | Générer une View programmatiquement | Agent `/drupal-generate-view` | [agents/views-generator.md](agents/views-generator.md) |
+| Afficher les Paragraphs d'un nœud dans Views | Relationship + field handler SDC | [views-paragraphs.md](views-paragraphs.md) |
+| View dont la source = paragraphes (pas nœuds) | Source : Paragraphs + relation nœud parent | [views-paragraphs.md](views-paragraphs.md) |
+| Filtrer les nœuds par contenu d'un paragraphe | JOIN + filter sur paragraphs_item_field_data | [views-paragraphs.md](views-paragraphs.md) |
 
 ## Anti-Patterns Critiques
 
